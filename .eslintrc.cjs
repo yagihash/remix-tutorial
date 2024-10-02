@@ -34,6 +34,7 @@ module.exports = {
         "plugin:react/jsx-runtime",
         "plugin:react-hooks/recommended",
         "plugin:jsx-a11y/recommended",
+        "prettier",
       ],
       settings: {
         react: {
@@ -68,6 +69,7 @@ module.exports = {
       },
       extends: [
         "plugin:@typescript-eslint/recommended",
+        "prettier",
         "plugin:import/recommended",
         "plugin:import/typescript",
       ],
